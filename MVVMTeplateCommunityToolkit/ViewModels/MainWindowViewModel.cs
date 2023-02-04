@@ -9,7 +9,7 @@ namespace MVVMTeplateCommunityToolkit.ViewModels;
 public partial class MainWindowViewModel
 {
     [ObservableProperty]
-    public string dummyText;
+    private string dummyText;
 
 	public MainWindowViewModel()
 	{
